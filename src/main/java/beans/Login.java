@@ -62,9 +62,9 @@ public class Login extends HttpServlet {
 			{
 				response.sendRedirect("Login.jsp");
 			}
-			System.out.println("Connected to the database"); 
+		//	System.out.println("Connected to the database"); 
 			conn.close();
-			System.out.println("Disconnected from database");
+		//	System.out.println("Disconnected from database");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

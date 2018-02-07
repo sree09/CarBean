@@ -27,7 +27,7 @@ public class Car extends HttpServlet {
 		
 		DbConnection db = new DbConnection();
 		Connection con = db.getCon();
-		System.out.println(con);
+		//System.out.println(con);
 		try {
 		Statement stmt =  con.createStatement();
 		ResultSet rs = stmt.executeQuery("select * from car");
