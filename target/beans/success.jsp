@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Logged in succesfully</title>
+<title>Logged in successfully</title>
 </head>
 <body>
 <jsp:useBean id="ud"  class="beans.LoginBean" scope="session"></jsp:useBean>

@@ -9,17 +9,5 @@
 <jsp:useBean id="ud"  class="beans.LoginBean" scope="session"></jsp:useBean>
 <jsp:setProperty property="*" name="ud"/>
 <jsp:forward page="Login"></jsp:forward>   
-<%-- session.setAttribute("sb",ud);	
-<%
-   if (ud.valid()) {
-%>
-<jsp:forward page="success.jsp"/>
-<%
-   }  else {
-%>
-<jsp:forward page="Login.jsp"/>
-<%
-   }
-%>--%>
 </body>
 </html>
